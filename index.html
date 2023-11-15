@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+</head>
+<body>
+    <div class="header-navbar">
+        <a href="/"> <img class="logo" src="img/ZEE5_logo.svg" alt="ZEE5_logo"></a>
+        <div class="nav-menu">
+            <ul> 
+                <li><a class="nav-link active" id="active" href="/">Home</a></li>
+                <li><a class="nav-link" href="tvshows.html">TV Shows</a></li>
+                <li><a class="nav-link" href="movies.html">Movies</a></li>
+                <li><a class="nav-link" href="premium.html">Perimum</a></li>
+                <li><a class="nav-link" href="webseries.html">Web Series</a></li>
+            </ul>
+        </div>
+        <div class="moremenu">
+            <img src="img/bento-menu.svg" alt="moremenu">
+            <div class="moremenu-list">
+              <a href="">Premium</a>
+              <a href="">Web Series</a>
+              <a href="">Rent</a>
+              <a href="">Live TV</a>
+              <a href="">Eduauraa</a>
+              <a href="">Music</a>
+              <a href="">Sports</a>
+              <a href="">Kids</a>
+              <a href="">Songs</a>
+              <a href="">Videos</a>
+            </div>
+            
+        </div>
+
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="img/search.svg" alt="search">
+                <input type="text" placeholder="Search for Movies, Shows, Channels etc.">
+            </div>
+            <img class="language-btn" src="img/language.svg" alt="language">
+            <a class="login-btn" href="/signin.html">LOGIN</a>
+            <a class="subscribe-btn" href="subscription.html">
+                <img src="img/crown.svg" alt="premium-subscription">
+                <span>BUY PLAN</span>
+            </a>
+            <img class="hamburgur-menu" src="img/round-menu.svg" alt="round-menu">
+        </div>
+
+    </div>
+    
+    <section>
+        <div class="carousel">
+            <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators bg-transparent">
+                  <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+            
+                <div class="carousel-inner">
+                  <div class="carousel-item active c-item">
+                    <img src="https://akamaividz2.zee5.com/image/upload/w_1420,h_569,c_scale,f_webp,q_auto:eco/resources/0-0-1z5418670/cover/1920x770d19e352a2ff54b3dbda9842e0a838bab.jpg" class="d-block w-100 c-img" alt="Slide 1">
+                    <div class="carousel-caption bg-transparent text-left position-absolute d-flex align-items-end">
+                      <div class="hero-body bg-transparent">
+                        <p class="hero-title">Haddi</p>
+                      <div class="hero-details d-flex justify-content-start">
+                        <a href="/" class="watch-btn">Watch</a>
+                        <a class="subscribe-btn" href="subscription.html">
+                            <img src="img/crown.svg" alt="premium-subscription">
+                            <span>BUY PLAN</span>
+                        </a>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item c-item">
+                    <img src="https://akamaividz2.zee5.com/image/upload/w_1420,h_569,c_scale,f_webp,q_auto:eco/resources/0-6-366/cover/1920x770cc828b3f538141fcb71363e8f41e8942.jpg" class="d-block w-100 c-img" alt="Slide 2">
+                    <div class="carousel-caption bg-transparent text-left position-absolute d-flex align-items-end">
+                        <div class="hero-body bg-transparent">
+                          <p class="hero-title">Kundli Bhagya</p>
+                        <div class="hero-details d-flex justify-content-start">
+                          <a href="/" class="watch-btn">Watch</a>
+                          <!-- <a class="subscribe-btn" href="subscription.html">
+                              <img src="img/crown.svg" alt="premium-subscription">
+                              <span>BUY PLAN</span>
+                          </a> -->
+                        </div>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="carousel-item c-item">
+                    <img src="https://akamaividz2.zee5.com/image/upload/w_1420,h_569,c_scale,f_webp,q_auto:eco/resources/0-0-1z5359029/cover/1920x770e80779dbdde042fd8f451ea5a69cec08.jpg" class="d-block w-100 c-img" alt="Slide 3">
+                    <div class="carousel-caption bg-transparent text-left position-absolute d-flex align-items-end">
+                        <div class="hero-body bg-transparent">
+                          <p class="hero-title">Sirf Ek Banda Kafi Hai</p>
+                        <div class="hero-details d-flex justify-content-start">
+                          <a href="/" class="watch-btn">Watch</a>
+                          <a class="subscribe-btn" href="subscription.html">
+                              <img src="img/crown.svg" alt="premium-subscription">
+                              <span>BUY PLAN</span>
+                          </a>
+                        </div>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev " type="button" data-bs-target="#hero-carousel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon bg-transparent" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next " type="button" data-bs-target="#hero-carousel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon bg-transparent" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        
+        <div class="continue-watching">
+          <div class="video-head d-flex justify-content-between">
+            <p class="video-title">Continue Watching</p>
+            <!-- <a class="more-btn" href="/"><span>More</span> <img src="img/next-ltr.svg" alt=""></a> -->
+          </div>
+          <div class="slider-wrapper">
+            <div class="content-list">
+              <div class="horizontal-card">
+                <a href="/content.html"><img class="horizontal-img" style="border-top-right-radius: 6px; border-top-left-radius: 6px; border-bottom-left-radius: 0; border-bottom-right-radius: 0 !important;" src="https://akamaividz2.zee5.com/image/upload/w_264,h_149,c_scale,f_webp,q_auto:eco/resources/0-1-6z5441673/list/00000178daabc00a6e4e48d3bee2bcfe1ede0b79.jpg" alt=""></a>
+                <div class="progressbar"></div>
+                <!-- <div class="horizontal-hover">
+                  <p class="horizontal-title">Indrani Rejects Padmaja's Proposal</p>
+                  <div class="watch-btn">
+                    <svg src="img/play.svg" alt="">
+                    <span>Watch</span>
+                  </div>
+                  <div class="share-btn">
+                    <img src="img/share.svg" alt="">
+                    <span>Share</span>
+                  </div>
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="trending">
+            <div class="video-head d-flex justify-content-between">
+                <p class="video-title">Trending Near You</p>
+                <a class="more-btn" href="/"><span>More</span> <img src="img/next-ltr.svg" alt=""></a>
+            </div>
+            <div class="slider-wrapper">
+              <!-- <button class="slide-btn"><img src="img/next-rtl.svg" alt=""></button> -->
+              <div class="content-list">
+                <img class="video-img" src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-1z5418670/portrait/1920x770d19e352a2ff54b3dbda9842e0a838bab.jpg" alt="Haddi">
+                <img class="video-img" src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-1z5437988/portrait/1920x7703e6f5e8d92d344e694701b046230ffea718e50faa3284f908f8c2006ee94f707.jpg" alt="Gadar2">
+                <img class="video-img" src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-1z5359029/portrait/1920x770e80779dbdde042fd8f451ea5a69cec08.jpg" alt="ekbandakafihai">
+                <img class="video-img" src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-1z5379692/portrait/1920x7702258faa42539473682e3515399b0d37173697b003b284ddca66881e4c870c11b.jpg" alt="kisikibhaikisikijaan">
+                <img class="video-img" src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-6-4z5416889/portrait/1920x77025b62e74950a4a6386b02517c94b8851.jpg" alt="saregama">
+                <img class="video-img" src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-1-6z5441253/portrait/1920x7702259d82cf08b4f7e8c33c5d67c012565.jpg" alt="durgana2">
+                <img class="video-img" src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-gadarekpremkatha/portrait/1920x77006598f0b803c496f99a90ba31b96cff1.jpg" alt="gadar">
+                <img class="video-img" src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-1z5368704/portrait/1920x770b7ccea88a1b048a0a8b916ea6428f5b0.jpg" alt="tarala">
+                <img class="video-img" src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-1z5334341/portrait/1920x7703f62f1e28948480fb8b1a13dab03dba2.jpg" alt="undercover">
+                <img class="video-img" src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-1z5444832/portrait/1920x770withlogocb1361e199c54c75a389a9ac4510ca79.jpg" alt="">
+                <img class="video-img" src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-1z5227557/portrait/1920x77075ff67f78d6c422582b996d7674784ac.jpg" alt="">
+                <img class="video-img" src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-1z5441258/portrait/1920x7704bdd1f9987fc47278c04668027921df1.jpg" alt="">
+                <img class="video-img" src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-1z5133458/portrait/1920x770ee070807403048a7a76f9fab0a1ca2ff654a074cfa1148039ae741170d7df583.jpg" alt="">
+                <img class="video-img" src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-1z5250012/portrait/1920x7702e2ba8da340346f9b2256075cd4a39f2b5cfca6efee94d588364979320f3fef2.jpg" alt="">
+                <img class="video-img" src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-96839/portrait/1920x7707c4220749d764d0fbbf4dc8b263d261b.jpg" alt="">
+              </div>
+              <!-- <button class="slide-btn"><img src="img/next-ltr.svg" alt=""></button> -->
+            </div>
+        </div>
+
+        <div class="top10">
+          <div class="video-head d-flex justify-content-between">
+            <p class="video-title">Top 10 ZEE5 Original Shows</p>
+            <a class="more-btn" href="/"><span>More</span> <img src="img/next-ltr.svg" alt=""></a>
+          </div>
+          <div class="slider-wrapper">
+            <div class="content-list">
+              <div class="top10-card">
+                <span class="top10-number">1</span>
+                <img class="top10-img" src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-6-4z5387648/portrait/1920x770b615016ebcb04fddbfa8e10732ca3081818f00ca22f443b59b502a15987ef760.jpg" alt="">
+              </div>
+              <div class="top10-card">
+                <span class="top10-number">2</span>
+                <img class="top10-img" src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-6-4z5193948/portrait/1920x770e6643078aec9453ab2222f9f75957879.jpg" alt="">
+              </div>
+              <div class="top10-card">
+                <span class="top10-number">3</span>
+                <img class="top10-img" src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-6-4z5311140/portrait/1920x770b6b0889bc58e48ebbcea1c702a830032de446bf7b699497a9ea3ace93ef51451.jpg" alt="">
+              </div>
+              <div class="top10-card">
+                <span class="top10-number">4</span>
+                <img class="top10-img" src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-6-4z5289752/portrait/1920x77004e005087b0f4882a08aab50cd3f50a7.jpg" alt="">
+              </div>
+              <div class="top10-card">
+                <span class="top10-number">5</span>
+                <img class="top10-img" src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-6-4z5199975/portrait/1920x77065f24a99cf4047bda7cad6d7cf07566d857123e23d8448e4a8b85cfcd12c2531.jpg" alt="">
+              </div>
+              <div class="top10-card">
+                <span class="top10-number">6</span>
+                <img class="top10-img" src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-6-4z5281686/portrait/1920x770da1dbae2451c4680b5aa059877f1b782.jpg" alt="">
+              </div>
+              <div class="top10-card">
+                <span class="top10-number">7</span>
+                <img class="top10-img" src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-6-2395/portrait/1920x770a47cac58ced24990bc1cb4dec19c704a.jpg" alt="">
+              </div>
+              <div class="top10-card">
+                <span class="top10-number">8</span>
+                <img class="top10-img" src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-6-4z5347411/portrait/1920vyavasthaf9f421b869614e0f818f1c1bc0a196e7.jpg" alt="">
+              </div>
+              <div class="top10-card">
+                <span class="top10-number">9</span>
+                <img class="top10-img" src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-6-2006/portrait/1920x77018412675431841267543bb374306dc794aa29f1ea0c46cc491de.jpg" alt="">
+              </div>
+              <div class="top10-card">
+                <span class="top10-number">1</span>
+                <img class="top10-img" src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-6-4z5399186/portrait/1920x7708d6504e472c942088cf1e60f69c2c3da.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="latest-hindi">
+          <div class="video-head d-flex justify-content-between">
+            <p class="video-title">Latest Hindi Episodes Free</p>
+            <a class="more-btn" href="/"><span>More</span> <img src="img/next-ltr.svg" alt=""></a>
+          </div>
+          <div class="slider-wrapper">
+            <div class="content-list">
+              <div class="horizontal-card">
+                <img class="horizontal-img" src="https://akamaividz2.zee5.com/image/upload/w_264,h_149,c_scale,f_webp,q_auto:eco/resources/0-1-6z5444468/list/0000025563eac08e63524608aab9838764e5c511.jpg" alt="">
+                <div class="horizontal-details">
+                  <p class="horizontal-title">Kundali Bhagya</p>
+                  <p class="horizontal-date">12 Oct</p>
+                </div>
+              </div>
+              <div class="horizontal-card">
+                <img class="horizontal-img" src="https://akamaividz2.zee5.com/image/upload/w_264,h_149,c_scale,f_webp,q_auto:eco/resources/0-1-6z5444545/list/000001453c5b9896034744e8b8a193a46e7e4796.jpg" alt="">
+                <div class="horizontal-details">
+                  <p class="horizontal-title">Pyar Ka Pehla Naam</p>
+                  <p class="horizontal-date">11 Oct</p>
+                </div>
+              </div>
+              <div class="horizontal-card">
+                <img class="horizontal-img" src="https://akamaividz2.zee5.com/image/upload/w_264,h_149,c_scale,f_webp,q_auto:eco/resources/0-1-6z5444435/list/000000740383273c904d4011afde46cc619d0290.jpg" alt="">
+                <div class="horizontal-details">
+                  <p class="horizontal-title">Meet</p>
+                  <p class="horizontal-date">11 Oct</p>
+                </div>
+              </div>
+              <div class="horizontal-card">
+                <img class="horizontal-img" src="https://akamaividz2.zee5.com/image/upload/w_264,h_149,c_scale,f_webp,q_auto:eco/resources/0-1-6z5444368/list/0000015876ed291457494801abd8cd756f78f4ca.jpg" alt="">
+                <div class="horizontal-details">
+                  <p class="horizontal-title">Kumkum Bhagya</p>
+                  <p class="horizontal-date">11 Oct</p>
+                </div>
+              </div>
+              <div class="horizontal-card">
+                <img class="horizontal-img" src="https://akamaividz2.zee5.com/image/upload/w_264,h_149,c_scale,f_webp,q_auto:eco/resources/0-1-6z5444357/list/000001358a431862d62f4368987bca1d5426a089.jpg" alt="">
+                <div class="horizontal-details">
+                  <p class="horizontal-title">Bhagya Laxhmi</p>
+                  <p class="horizontal-date">11 Oct</p>
+                </div>
+              </div>
+              <div class="horizontal-card">
+                <img class="horizontal-img" src="https://akamaividz2.zee5.com/image/upload/w_264,h_149,c_scale,f_webp,q_auto:eco/resources/0-1-6z5440718/list/0000020224a6d0393ecd4392ab7ce82c3bfcc940.jpg" alt="">
+                <div class="horizontal-details">
+                  <p class="horizontal-title">Kyuki Saas Maa Bhau Beti..</p>
+                  <p class="horizontal-date">11 Oct</p>
+                </div>
+              </div>
+              <div class="horizontal-card">
+                <img class="horizontal-img" src="https://akamaividz2.zee5.com/image/upload/w_264,h_149,c_scale,f_webp,q_auto:eco/resources/0-1-6z5444540/list/00000197f61e89f031bb4d6e917e41f073462af7.jpg" alt="">
+                <div class="horizontal-details">
+                  <p class="horizontal-title">Shiv Shakti</p>
+                  <p class="horizontal-date">11 Oct</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="latest-marathi">
+          <div class="video-head d-flex justify-content-between">
+            <p class="video-title">Navin Marathi Eps | Subscribe Kara</p>
+            <a class="more-btn" href="/"><span>More</span> <img src="img/next-ltr.svg" alt=""></a>
+          </div>
+          <div class="slider-wrapper">
+            <div class="content-list">
+              <div class="horizontal-card">
+                <img class="horizontal-img" src="https://akamaividz2.zee5.com/image/upload/w_264,h_149,c_scale,f_webp,q_auto:eco/resources/0-1-6z5441558/list/000001678225b55047704ef9b98789fb99a87ca9.jpg" alt="">
+                <div class="horizontal-details">
+                  <p class="horizontal-title">Appi Amchi Collector</p>
+                  <p class="horizontal-date">11 Oct</p>
+                </div>
+              </div>
+              <div class="horizontal-card">
+                <img class="horizontal-img" src="https://akamaividz2.zee5.com/image/upload/w_264,h_149,c_scale,f_webp,q_auto:eco/resources/0-1-6z5441673/list/00000178daabc00a6e4e48d3bee2bcfe1ede0b79.jpg" alt="">
+                <div class="horizontal-details">
+                  <p class="horizontal-title">Satvya Mulichi Satvi Mulgi</p>
+                  <p class="horizontal-date">11 Oct</p>
+                </div>
+              </div>
+              <div class="horizontal-card">
+                <img class="horizontal-img" src="https://akamaividz2.zee5.com/image/upload/w_264,h_149,c_scale,f_webp,q_auto:eco/resources/0-1-6z5441695/list/0000014425c41035395f481baccb4739e36d40f4.jpg" alt="">
+                <div class="horizontal-details">
+                  <p class="horizontal-title">Tula Shikvin Changlach Dhada</p>
+                  <p class="horizontal-date">11 Oct</p>
+                </div>
+              </div>
+              <div class="horizontal-card">
+                <img class="horizontal-img" src="https://akamaividz2.zee5.com/image/upload/w_264,h_149,c_scale,f_webp,q_auto:eco/resources/0-1-6z5441640/list/000001992a3accc00d564aabad1ab981160ccc6b.jpg" alt="">
+                <div class="horizontal-details">
+                  <p class="horizontal-title">Nava Gadi Nava Rajya</p>
+                  <p class="horizontal-date">11 Oct</p>
+                </div>
+              </div>
+              <div class="horizontal-card">
+                <img class="horizontal-img" src="https://akamaividz2.zee5.com/image/upload/w_264,h_149,c_scale,f_webp,q_auto:eco/resources/0-1-6z5441735/list/000001327d821e68b5584f4092b86f5670550564.jpg" alt="">
+                <div class="horizontal-details">
+                  <p class="horizontal-title">Sara Kahi Tichyasathi</p>
+                  <p class="horizontal-date">11 Oct</p>
+                </div>
+              </div>
+              <div class="horizontal-card">
+                <img class="horizontal-img" src="https://akamaividz2.zee5.com/image/upload/w_264,h_149,c_scale,f_webp,q_auto:eco/resources/0-1-6z5441616/list/00000181dc0aaa2df6d04fbf9b0aff1815b4cef1.jpg" alt="">
+                <div class="horizontal-details">
+                  <p class="horizontal-title">36 Gun Jodi</p>
+                  <p class="horizontal-date">11 Oct</p>
+                </div>
+              </div>
+              <div class="horizontal-card">
+                <img class="horizontal-img" src="https://akamaividz2.zee5.com/image/upload/w_264,h_149,c_scale,f_webp,q_auto:eco/resources/0-1-6z5441560/list/000001398c59dcd8721f4763aa968d809697cdc5.jpg" alt="">
+                <div class="horizontal-details">
+                  <p class="horizontal-title">Appi Amchi Collector</p>
+                  <p class="horizontal-date">11 Oct</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="explore-language">
+          <div class="video-head d-flex justify-content-between">
+            <p class="video-title">Explore In Your Language</p>
+            <a class="more-btn" href="/"><span>More</span> <img src="img/next-ltr.svg" alt=""></a>
+          </div>
+          <div class="slider-wrapper">
+            <div class="content-list">
+              <div class="horizontal-card">
+                <img class="horizontal-img" src="https://akamaividz2.zee5.com/image/upload/w_264,h_149,c_scale,f_webp,q_auto:eco/resources/0-8-3z5258169/list/teluguplatformlanguage21170x6586720276e6d5fe5806b4c2194af1d5abc7ba3b9.jpg" alt="">
+              </div>
+              <div class="horizontal-card">
+                <img class="horizontal-img" src="https://akamaividz2.zee5.com/image/upload/w_264,h_149,c_scale,f_webp,q_auto:eco/resources/0-8-3z5258171/list/tamilplatformlanguage21170x658672027d3e73936dd574ef7acb36f835cdb3f6c.jpg" alt="">
+              </div>
+              <div class="horizontal-card">
+                <img class="horizontal-img" src="https://akamaividz2.zee5.com/image/upload/w_264,h_149,c_scale,f_webp,q_auto:eco/resources/0-8-3z5258170/list/kannadaplatformlanguage21170x65867202705a6a3c940cb413fbdb285ca4b63680a.jpg" alt="">
+              </div>
+              <div class="horizontal-card">
+                <img class="horizontal-img" src="https://akamaividz2.zee5.com/image/upload/w_264,h_149,c_scale,f_webp,q_auto:eco/resources/0-8-7867/list/hindiplatformlanguage21170x6586720271ae3ad97a68f4adb9428bc32a84d7c68.jpg" alt="">
+              </div>
+              <div class="horizontal-card">
+                <img class="horizontal-img" src="https://akamaividz2.zee5.com/image/upload/w_264,h_149,c_scale,f_webp,q_auto:eco/resources/0-8-3z5258172/list/malayalamplatformlanguage21170x658672027c85c90a3ae434212a44bbaa2494f9a3f.jpg" alt="">
+              </div>
+              <div class="horizontal-card">
+                <img class="horizontal-img" src="https://akamaividz2.zee5.com/image/upload/w_264,h_149,c_scale,f_webp,q_auto:eco/resources/0-8-7868/list/marathiplatformlanguage21170x658672027b522689ba341448592e0ed83a4fc4fbc.jpg" alt="">
+              </div>
+              <div class="horizontal-card">
+                <img class="horizontal-img" src="https://akamaividz2.zee5.com/image/upload/w_264,h_149,c_scale,f_webp,q_auto:eco/resources/0-8-3z5258059/list/banglaplatformlanguage21170x658672027175be026d16a4de9829556ae6f0dac38.jpg" alt="">
+              </div>
+              
+              
+            </div>
+          </div>
+        </div>
+    </section>
+    
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</html>
